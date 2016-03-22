@@ -1,0 +1,17 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "grunt.option(key[, val])\tgrunt",
+            "contents": "grunt.option(${1:key} ${2:[, val]})$0"
+        },
+        {
+            "trigger": "grunt.option.init([initObject])\tgrunt",
+            "contents": "grunt.option.init(${1:[initObject]})$0"
+        },
+        {
+            "trigger": "grunt.option.flags()\tgrunt",
+            "contents": "grunt.option.flags()$0"
+        }
+    ]
+}

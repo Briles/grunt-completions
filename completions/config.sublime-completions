@@ -1,0 +1,45 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "grunt.config.init(configObject)\tgrunt",
+            "contents": "grunt.config.init(${1:configObject});$0"
+        },
+        {
+            "trigger": "grunt.initConfig(configObject)\tgrunt",
+            "contents": "grunt.initConfig(${1:configObject});$0"
+        },
+        {
+            "trigger": "grunt.config([prop] [, value])\tgrunt",
+            "contents": "grunt.config(${1:[prop]} ${2:[, value]});$0"
+        },
+        {
+            "trigger": "grunt.config.get([prop])\tgrunt",
+            "contents": "grunt.config.get(${1:[prop]});$0"
+        },
+        {
+            "trigger": "grunt.config.process(value)\tgrunt",
+            "contents": "grunt.config.process(${1:value});$0"
+        },
+        {
+            "trigger": "grunt.config.getRaw([prop])\tgrunt",
+            "contents": "grunt.config.getRaw(${1:[prop]});$0"
+        },
+        {
+            "trigger": "grunt.config.set(prop, value)\tgrunt",
+            "contents": "grunt.config.set(${1:prop}, ${2:value});$0"
+        },
+        {
+            "trigger": "grunt.config.escape(propString)\tgrunt",
+            "contents": "grunt.config.escape(${1:propString});$0"
+        },
+        {
+            "trigger": "grunt.config.merge(configObject)\tgrunt",
+            "contents": "grunt.config.merge(${1:configObject});$0"
+        },
+        {
+            "trigger": "grunt.config.requires(prop [, prop [, ...]])\tgrunt",
+            "contents": "grunt.config.requires(${1:prop} ${2:[, prop [, ...]]});$0"
+        }
+    ]
+}

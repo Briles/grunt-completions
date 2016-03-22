@@ -1,0 +1,57 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "this.async()\tgrunt",
+            "contents": "this.async();$0"
+        },
+        {
+            "trigger": "this.requires(tasksList)\tgrunt",
+            "contents": "this.requires(${1:tasksList});$0"
+        },
+        {
+            "trigger": "this.requiresConfig(prop [, prop [, ...]])\tgrunt",
+            "contents": "this.requiresConfig(${1:prop} ${2:[, prop [, ...]]});$0"
+        },
+        {
+            "trigger": "this.name\tgrunt",
+            "contents": "this.name$0"
+        },
+        {
+            "trigger": "this.nameArgs\tgrunt",
+            "contents": "this.nameArgs$0"
+        },
+        {
+            "trigger": "this.args\tgrunt",
+            "contents": "this.args$0"
+        },
+        {
+            "trigger": "this.flags\tgrunt",
+            "contents": "this.flags$0"
+        },
+        {
+            "trigger": "this.errorCount\tgrunt",
+            "contents": "this.errorCount$0"
+        },
+        {
+            "trigger": "this.options\tgrunt",
+            "contents": "this.options$0"
+        },
+        {
+            "trigger": "this.target\tgrunt",
+            "contents": "this.target$0"
+        },
+        {
+            "trigger": "this.files\tgrunt",
+            "contents": "this.files$0"
+        },
+        {
+            "trigger": "this.filesSrc\tgrunt",
+            "contents": "this.filesSrc$0"
+        },
+        {
+            "trigger": "this.data\tgrunt",
+            "contents": "this.data$0"
+        }
+    ]
+}

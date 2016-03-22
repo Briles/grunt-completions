@@ -1,0 +1,53 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "grunt.task.registerTask(taskName, taskList)\tgrunt",
+            "contents": "grunt.task.registerTask(${1:taskName}, ${2:taskList});$0"
+        },
+        {
+            "trigger": "grunt.task.registerTask(taskName, description, taskList)\tgrunt",
+            "contents": "grunt.task.registerTask(${1:taskName}, ${2:description}, ${3:taskList});$0"
+        },
+        {
+            "trigger": "grunt.task.registerTask(taskName, description, taskFunction)\tgrunt",
+            "contents": "grunt.task.registerTask(${1:taskName}, ${2:description}, ${3:taskFunction});$0"
+        },
+        {
+            "trigger": "grunt.task.registerMultiTask(taskName, description, taskFunction)\tgrunt",
+            "contents": "grunt.task.registerMultiTask(${1:taskName}, ${2:description}, ${3:taskFunction});$0"
+        },
+        {
+            "trigger": "grunt.task.requires(taskName)\tgrunt",
+            "contents": "grunt.task.requires(${1:taskName});$0"
+        },
+        {
+            "trigger": "grunt.task.exists(name)\tgrunt",
+            "contents": "grunt.task.exists(${1:name});$0"
+        },
+        {
+            "trigger": "grunt.task.renameTask(oldname, newname)\tgrunt",
+            "contents": "grunt.task.renameTask(${1:oldname}, ${2:newname});$0"
+        },
+        {
+            "trigger": "grunt.task.loadTasks(tasksPath)\tgrunt",
+            "contents": "grunt.task.loadTasks(${1:tasksPath});$0"
+        },
+        {
+            "trigger": "grunt.task.loadNpmTasks(pluginName)\tgrunt",
+            "contents": "grunt.task.loadNpmTasks(${1:pluginName});$0"
+        },
+        {
+            "trigger": "grunt.task.run(taskList)\tgrunt",
+            "contents": "grunt.task.run(${1:taskList});$0"
+        },
+        {
+            "trigger": "grunt.task.clearQueue()\tgrunt",
+            "contents": "grunt.task.clearQueue();$0"
+        },
+        {
+            "trigger": "grunt.task.normalizeMultiTaskFiles(data [, targetname])\tgrunt",
+            "contents": "grunt.task.normalizeMultiTaskFiles(${1:data} ${2:[, targetname]});$0"
+        }
+    ]
+}

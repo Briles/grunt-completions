@@ -1,0 +1,25 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "grunt.template.process(template [, options])\tgrunt",
+            "contents": "grunt.template.process(${1:template}, ${2:[, options]});$0"
+        },
+        {
+            "trigger": "grunt.template.setDelimiters(name)\tgrunt",
+            "contents": "grunt.template.setDelimiters(${1:name});$0"
+        },
+        {
+            "trigger": "grunt.template.addDelimiters(name, opener, closer)\tgrunt",
+            "contents": "grunt.template.addDelimiters(${1:name}, ${2:opener}, ${3:closer});$0"
+        },
+        {
+            "trigger": "grunt.template.date(date, format)\tgrunt",
+            "contents": "grunt.template.date(${1:date}, ${2:format});$0"
+        },
+        {
+            "trigger": "grunt.template.today(format)\tgrunt",
+            "contents": "grunt.template.today(${1:format});$0"
+        }
+    ]
+}
