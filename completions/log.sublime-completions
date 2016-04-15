@@ -3,39 +3,39 @@
     "completions": [
         {
             "trigger": "grunt.log.write(msg)\tgrunt",
-            "contents": "grunt.log.write(${1:msg});$0"
+            "contents": "grunt.log.write(${1:msg})$0"
         },
         {
             "trigger": "grunt.log.writeln([msg])\tgrunt",
-            "contents": "grunt.log.writeln(${1:[msg]});$0"
+            "contents": "grunt.log.writeln(${1:[msg]})$0"
         },
         {
             "trigger": "grunt.log.error([msg])\tgrunt",
-            "contents": "grunt.log.error(${1:[msg]});$0"
+            "contents": "grunt.log.error(${1:[msg]})$0"
         },
         {
             "trigger": "grunt.log.errorln(msg)\tgrunt",
-            "contents": "grunt.log.errorln(${1:msg});$0"
+            "contents": "grunt.log.errorln(${1:msg})$0"
         },
         {
             "trigger": "grunt.log.ok([msg])\tgrunt",
-            "contents": "grunt.log.ok(${1:[msg]});$0"
+            "contents": "grunt.log.ok(${1:[msg]})$0"
         },
         {
             "trigger": "grunt.log.oklns(msg)\tgrunt",
-            "contents": "grunt.log.oklns(${1:msg});$0"
+            "contents": "grunt.log.oklns(${1:msg})$0"
         },
         {
             "trigger": "grunt.log.subhead(msg)\tgrunt",
-            "contents": "grunt.log.subhead(${1:msg});$0"
+            "contents": "grunt.log.subhead(${1:msg})$0"
         },
         {
             "trigger": "grunt.log.debug(msg)\tgrunt",
-            "contents": "grunt.log.debug(${1:msg});$0"
+            "contents": "grunt.log.debug(${1:msg})$0"
         },
         {
             "trigger": "grunt.log.writeflags(obj, prefix)\tgrunt",
-            "contents": "grunt.log.writeflags(${1:obj}, ${2:prefix});$0"
+            "contents": "grunt.log.writeflags(${1:obj}, ${2:prefix})$0"
         },
         {
             "trigger": "grunt.verbose\tgrunt",
@@ -43,23 +43,23 @@
         },
         {
             "trigger": "grunt.verbose.or\tgrunt",
-            "contents": "grunt.verbose.or;$0"
+            "contents": "grunt.verbose.or$0"
         },
         {
             "trigger": "grunt.log.wordlist(arr [, options])\tgrunt",
-            "contents": "grunt.log.wordlist(${1:arr} ${2:[, options]});$0"
+            "contents": "grunt.log.wordlist(${1:arr} ${2:[, options]})$0"
         },
         {
             "trigger": "grunt.log.uncolor(str)\tgrunt",
-            "contents": "grunt.log.uncolor(${1:str});$0"
+            "contents": "grunt.log.uncolor(${1:str})$0"
         },
         {
             "trigger": "grunt.log.wraptext(width, text)\tgrunt",
-            "contents": "grunt.log.wraptext(${1:width}, ${2:text});$0"
+            "contents": "grunt.log.wraptext(${1:width}, ${2:text})$0"
         },
         {
             "trigger": "grunt.log.table(width, texts)\tgrunt",
-            "contents": "grunt.log.table(${1:width}, ${2:texts});$0"
+            "contents": "grunt.log.table(${1:width}, ${2:texts})$0"
         }
     ]
 }

@@ -11,87 +11,87 @@
         },
         {
             "trigger": "grunt.file.read(filepath [, options])\tgrunt",
-            "contents": "grunt.file.read(${1:filepath} ${2:[, options]});$0"
+            "contents": "grunt.file.read(${1:filepath} ${2:[, options]})$0"
         },
         {
             "trigger": "grunt.file.readJSON(filepath [, options])\tgrunt",
-            "contents": "grunt.file.readJSON(${1:filepath} ${2:[, options]});$0"
+            "contents": "grunt.file.readJSON(${1:filepath} ${2:[, options]})$0"
         },
         {
             "trigger": "grunt.file.readYAML(filepath [, options])\tgrunt",
-            "contents": "grunt.file.readYAML(${1:filepath} ${2:[, options]});$0"
+            "contents": "grunt.file.readYAML(${1:filepath} ${2:[, options]})$0"
         },
         {
             "trigger": "grunt.file.write(filepath, contents [, options])\tgrunt",
-            "contents": "grunt.file.write(${1:filepath}, ${2:contents} ${3:[, options]});$0"
+            "contents": "grunt.file.write(${1:filepath}, ${2:contents} ${3:[, options]})$0"
         },
         {
             "trigger": "grunt.file.copy(srcpath, destpath [, options])\tgrunt",
-            "contents": "grunt.file.copy(${1:srcpath}, ${2:destpath} ${3:[, options]});$0"
+            "contents": "grunt.file.copy(${1:srcpath}, ${2:destpath} ${3:[, options]})$0"
         },
         {
             "trigger": "grunt.file.delete(filepath [, options])\tgrunt",
-            "contents": "grunt.file.delete(${1:filepath} ${2:[, options]});$0"
+            "contents": "grunt.file.delete(${1:filepath} ${2:[, options]})$0"
         },
         {
             "trigger": "grunt.file.mkdir(dirpath [, mode])\tgrunt",
-            "contents": "grunt.file.mkdir(${1:dirpath} ${2:[, mode]});$0"
+            "contents": "grunt.file.mkdir(${1:dirpath} ${2:[, mode]})$0"
         },
         {
             "trigger": "grunt.file.recurse(rootdir, callback)\tgrunt",
-            "contents": "grunt.file.recurse(${1:rootdir}, ${2:callback]});$0"
+            "contents": "grunt.file.recurse(${1:rootdir}, ${2:callback]})$0"
         },
         {
             "trigger": "grunt.file.expand([options, ] patterns)\tgrunt",
-            "contents": "grunt.file.expand(${1:[options, ]} ${2:patterns]});$0"
+            "contents": "grunt.file.expand(${1:[options, ]} ${2:patterns]})$0"
         },
         {
             "trigger": "grunt.file.expandMapping(patterns, dest [, options])\tgrunt",
-            "contents": "grunt.file.expandMapping(${1:patterns}, ${2:dest} ${3:[, options]});$0"
+            "contents": "grunt.file.expandMapping(${1:patterns}, ${2:dest} ${3:[, options]})$0"
         },
         {
             "trigger": "grunt.file.match([options, ] patterns, filepaths)\tgrunt",
-            "contents": "grunt.file.match(${1:[options, ]} ${2:patterns]}, ${3:filepaths});$0"
+            "contents": "grunt.file.match(${1:[options, ]} ${2:patterns]}, ${3:filepaths})$0"
         },
         {
             "trigger": "grunt.file.exists(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.exists(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.exists(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.isLink(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.isLink(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.isLink(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.isDir(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.isDir(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.isDir(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.isFile(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.isFile(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.isFile(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.isPathAbsolute(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.isPathAbsolute(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.isPathAbsolute(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.arePathsEquivalent(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.arePathsEquivalent(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.arePathsEquivalent(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.doesPathContain(ancestorPath, descendantPath1 [, descendantPath2 [, ...]])\tgrunt",
-            "contents": "grunt.file.doesPathContain(${1:ancestorPath}, ${2:descendantPath1} ${3:[, descendantPath2 [, ...]]});$0"
+            "contents": "grunt.file.doesPathContain(${1:ancestorPath}, ${2:descendantPath1} ${3:[, descendantPath2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.isPathCwd(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.isPathCwd(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.isPathCwd(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.isPathInCwd(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.isPathInCwd(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.isPathInCwd(${1:path1} ${2:[, path2 [, ...]]})$0"
         },
         {
             "trigger": "grunt.file.setBase(path1 [, path2 [, ...]])\tgrunt",
-            "contents": "grunt.file.setBase(${1:path1} ${2:[, path2 [, ...]]});$0"
+            "contents": "grunt.file.setBase(${1:path1} ${2:[, path2 [, ...]]})$0"
         }
     ]
 }

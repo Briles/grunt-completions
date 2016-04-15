@@ -3,39 +3,39 @@
     "completions": [
         {
             "trigger": "grunt.util.kindOf(value)\tgrunt",
-            "contents": "grunt.util.kindOf(${1:value});$0"
+            "contents": "grunt.util.kindOf(${1:value})$0"
         },
         {
             "trigger": "grunt.util.error(message [, origError])\tgrunt",
-            "contents": "grunt.util.error(${1:message} ${2:[, origError]});$0"
+            "contents": "grunt.util.error(${1:message} ${2:[, origError]})$0"
         },
         {
             "trigger": "grunt.util.normalizelf(string)\tgrunt",
-            "contents": "grunt.util.normalizelf(${1:string});$0"
+            "contents": "grunt.util.normalizelf(${1:string})$0"
         },
         {
             "trigger": "grunt.util.recurse(object, callbackFunction, continueFunction)\tgrunt",
-            "contents": "grunt.util.recurse(${1:object}, ${2:callbackFunction}, ${3:continueFunction});$0"
+            "contents": "grunt.util.recurse(${1:object}, ${2:callbackFunction}, ${3:continueFunction})$0"
         },
         {
             "trigger": "grunt.util.repeat(n, str)\tgrunt",
-            "contents": "grunt.util.repeat(${1:n}, ${2:str});$0"
+            "contents": "grunt.util.repeat(${1:n}, ${2:str})$0"
         },
         {
             "trigger": "grunt.util.pluralize(n, str, separator)\tgrunt",
-            "contents": "grunt.util.pluralize(${1:n}, ${2:str}, ${3:separator});$0"
+            "contents": "grunt.util.pluralize(${1:n}, ${2:str}, ${3:separator})$0"
         },
         {
             "trigger": "grunt.util.spawn(options, doneFunction)\tgrunt",
-            "contents": "grunt.util.spawn(${1:options}, ${2:doneFunction});$0"
+            "contents": "grunt.util.spawn(${1:options}, ${2:doneFunction})$0"
         },
         {
             "trigger": "grunt.util.toArray(arrayLikeObject)\tgrunt",
-            "contents": "grunt.util.toArray(${1:arrayLikeObject});$0"
+            "contents": "grunt.util.toArray(${1:arrayLikeObject})$0"
         },
         {
             "trigger": "grunt.util.callbackify(syncOrAsyncFunction)\tgrunt",
-            "contents": "grunt.util.callbackify(${1:syncOrAsyncFunction});$0"
+            "contents": "grunt.util.callbackify(${1:syncOrAsyncFunction})$0"
         },
         {
             "trigger": "grunt.util.namespace\tgrunt",

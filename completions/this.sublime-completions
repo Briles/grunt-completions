@@ -3,15 +3,15 @@
     "completions": [
         {
             "trigger": "this.async()\tgrunt",
-            "contents": "this.async();$0"
+            "contents": "this.async()$0"
         },
         {
             "trigger": "this.requires(tasksList)\tgrunt",
-            "contents": "this.requires(${1:tasksList});$0"
+            "contents": "this.requires(${1:tasksList})$0"
         },
         {
             "trigger": "this.requiresConfig(prop [, prop [, ...]])\tgrunt",
-            "contents": "this.requiresConfig(${1:prop} ${2:[, prop [, ...]]});$0"
+            "contents": "this.requiresConfig(${1:prop} ${2:[, prop [, ...]]})$0"
         },
         {
             "trigger": "this.name\tgrunt",

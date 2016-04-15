@@ -3,11 +3,11 @@
     "completions": [
         {
             "trigger": "grunt.fail.warn(error [, errorcode])\tgrunt",
-            "contents": "grunt.fail.warn(${1:error}, ${2:[, errorcode]});$0"
+            "contents": "grunt.fail.warn(${1:error}, ${2:[, errorcode]})$0"
         },
         {
             "trigger": "grunt.fail.fatal(error [, errorcode])\tgrunt",
-            "contents": "grunt.fail.fatal(${1:error}, ${2:[, errorcode]});$0"
+            "contents": "grunt.fail.fatal(${1:error}, ${2:[, errorcode]})$0"
         }
     ]
 }

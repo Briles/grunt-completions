@@ -3,27 +3,27 @@
     "completions": [
         {
             "trigger": "grunt.event.on(event, listener)\tgrunt",
-            "contents": "grunt.event.on(${1:event}, ${2:listener});$0"
+            "contents": "grunt.event.on(${1:event}, ${2:listener})$0"
         },
         {
             "trigger": "grunt.event.once(event, listener)\tgrunt",
-            "contents": "grunt.event.once(${1:event}, ${2:listener});$0"
+            "contents": "grunt.event.once(${1:event}, ${2:listener})$0"
         },
         {
             "trigger": "grunt.event.many(event, timesToListen, listener)\tgrunt",
-            "contents": "grunt.event.many(${1:event}, ${2:timesToListen}, ${3:listener});$0"
+            "contents": "grunt.event.many(${1:event}, ${2:timesToListen}, ${3:listener})$0"
         },
         {
             "trigger": "grunt.event.off(event, listener)\tgrunt",
-            "contents": "grunt.event.off(${1:event}, ${2:listener});$0"
+            "contents": "grunt.event.off(${1:event}, ${2:listener})$0"
         },
         {
             "trigger": "grunt.event.removeAllListeners([event])\tgrunt",
-            "contents": "grunt.event.removeAllListeners(${1:[event]});$0"
+            "contents": "grunt.event.removeAllListeners(${1:[event]})$0"
         },
         {
             "trigger": "grunt.event.emit(event, [arg1], [arg2], [...])\tgrunt",
-            "contents": "grunt.event.emit(${1:event}, ${2:[arg1]}, ${3:[arg2]}, ${4:[...]});$0"
+            "contents": "grunt.event.emit(${1:event}, ${2:[arg1]}, ${3:[arg2]}, ${4:[...]})$0"
         }
     ]
 }
